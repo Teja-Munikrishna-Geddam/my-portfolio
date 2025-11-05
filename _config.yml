@@ -1,0 +1,10 @@
+# _config.yml
+
+# Tell Jekyll to ignore the build output directory and the node_modules folders
+exclude:
+  - "node_modules"
+  - "portfolio/backend/node_modules"
+  - "portfolio/backend" # If you don't need any files from the backend to be processed
+  - "build"
+  - "README.md"
+  - "package.json"
