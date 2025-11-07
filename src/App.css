@@ -142,12 +142,12 @@ body {
 }
 
 .Social-Icon:nth-last-child(2) {
-    margin-top: 12px;
-    gap: 0.2rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
+  margin-top: 12px;
+  gap: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
 .Social-Icon:nth-last-child(2) img {
   width: 4.5rem;
@@ -176,7 +176,7 @@ body {
   position: absolute;
   bottom: 0;
   left: -3rem;
-  width: 97rem;
+  width: 96rem;
   margin-left: 5px;
   margin-right: 2px;
   color: #fafafa;
@@ -202,25 +202,25 @@ body {
 
 /*NavBar*/
 
+/* NavBar - FIXED AND CENTERED CORRECTION */
+
+/*NavBar - Current Global CSS */
+
 .NavBar-Ul {
   position: fixed;
-  display: flex;
-  align-content: center;
-  justify-content: space-around;
-  justify-items: center;
-  z-index: 3;
   top: 6rem;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 100;
+  display: flex;
+  justify-content: space-around;
   list-style: none;
-  border: 2px #282c34 solid;
   max-width: 1400px;
   width: 90%;
   height: 3rem;
   text-decoration: none;
   border-radius: 2rem;
-  background: #627172;
-
+  background-color: #627172;
 }
 
 li.NavList a {
@@ -309,7 +309,7 @@ li.NavList a {
 .hero-container img:hover {
   animation-play-state: paused;
   transform: rotate(0deg) skew(0deg);
-  border-radius:50%;
+  border-radius: 50%;
 }
 
 /* Hero Text Section */
@@ -514,6 +514,10 @@ li.NavList a {
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
   box-sizing: border-box;
+
+}
+
+.contact-container h2 {
   color: #fafafa;
 }
 
@@ -533,7 +537,6 @@ li.NavList a {
   border: 1px solid;
   border-radius: 10%;
   box-shadow: 0 6px 18px rgba(7, 7, 7, 0.5);
-  box-sizing: border-box;
   display: block;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -549,6 +552,7 @@ li.NavList a {
   border-radius: 10%;
   box-shadow: 0 6px 18px rgba(7, 7, 7, 0.5);
   box-sizing: border-box;
+  color: #fafafa;
 }
 
 .submit-button:hover {
@@ -577,8 +581,10 @@ li.NavList a {
     top: 15%;
     left: 54%;
   }
+
   .NavBar-Ul {
-    position: absolute;
+    position: fixed; 
+    z-index: 100;
     width: 23rem;
     font-size: 1REM;
     gap: 0.5rem;
@@ -587,6 +593,7 @@ li.NavList a {
     left: 54%;
     transform: translateX(-50%);
   }
+
   li.NavList a {
     font-size: large;
   }
@@ -599,17 +606,19 @@ li.NavList a {
   .hero-text h1 {
     font-size: large;
   }
+
   .hero-text p {
     font-size: small;
   }
 
-  .hero-text{
+  .hero-text {
     display: flex;
     width: 10rem;
     flex-direction: column;
     position: absolute;
     left: -110%;
   }
+
   .hero-container img {
 
     left: -180%;
@@ -643,7 +652,7 @@ li.NavList a {
   }
 
   .Project-Card {
-    font-size:small ;
+    font-size: small;
     width: 8rem;
     height: 15rem;
     display: flex;
@@ -687,13 +696,14 @@ li.NavList a {
 
   .Footer-Box {
     position: absolute;
-    top:4730%;
+    top: 4730%;
     padding-bottom: 0%;
     margin: 0;
     width: 25rem;
     height: 40vh;
   }
-  .Footer-Rights{
+
+  .Footer-Rights {
     padding: 2%;
     margin: 0;
     width: 23rem;
@@ -702,9 +712,9 @@ li.NavList a {
     transform: translateX(12%);
   }
 
-  .Social-Media{
+  .Social-Media {
     display: flex;
-    flex-direction:row ;
+    flex-direction: row;
     flex-wrap: wrap;
     width: 10rem;
     padding-right: 0;
@@ -712,7 +722,7 @@ li.NavList a {
     bottom: 0;
   }
 
-  .Social-Icon{
+  .Social-Icon {
     width: 4rem;
     padding: 0;
   }
@@ -721,16 +731,20 @@ li.NavList a {
     width: 2rem;
     padding-bottom: -1rem;
   }
-  .Social-Icon a{
+
+  .Social-Icon a {
     font-size: x-small;
   }
-  .Social-Icon:nth-last-child(2).Footer-img{
+
+  .Social-Icon:nth-last-child(2).Footer-img {
     width: 2rem;
   }
+
   .Social-Icon:nth-last-child(2) {
     margin-top: 08px;
   }
-  .Social-Icon:last-child{
+
+  .Social-Icon:last-child {
     margin-top: 8px;
   }
 
@@ -751,6 +765,7 @@ li.NavList a {
   .Contact-img {
     width: 2.5rem;
   }
+
   .Contact-link {
     width: 4rem;
   }
@@ -782,9 +797,10 @@ li.NavList a {
   }
 
   .NavBar-Ul {
+    position: fixed; 
+    z-index: 100;
     width: 45rem;
     height: 4rem;
-    position: absolute;
     left: 7%;
     top: 8rem;
     transform: translateY(-50%);
@@ -862,7 +878,7 @@ li.NavList a {
     background: #02c4fa;
     border-radius: 10px;
     align-content: center;
-    font-size:large;
+    font-size: large;
     padding: 2px;
     margin: 10px;
   }
@@ -955,7 +971,8 @@ li.NavList a {
     background-position: center;
     animation: imageChange 10s infinite 2s;
   }
-/*  */
+
+  /*  */
 
   /* Hero Text Section */
   .hero-text {
@@ -1025,7 +1042,7 @@ li.NavList a {
     width: 45rem;
     top: 1500px;
     height: 87rem;
-    left:8%;
+    left: 8%;
   }
 
   .Project-Card {
@@ -1051,6 +1068,8 @@ li.NavList a {
   }
 
   .NavBar-Ul {
+    position: fixed; 
+    z-index: 100;
     top: 6.5rem;
     width: calc(100% - 2rem);
   }
