@@ -8,7 +8,7 @@ import { HashRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
-    <Router basename="/My_Portfolio">
+    <Router>
         <div className="App">
           <h1 className='heading'>Portfolio</h1>
           <NavBar />
