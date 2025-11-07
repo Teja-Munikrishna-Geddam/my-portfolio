@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.d578d114.css",
+    "main.js": "/my-portfolio/static/js/main.9f305a8a.js",
+    "static/js/453.ad7768ec.chunk.js": "/my-portfolio/static/js/453.ad7768ec.chunk.js",
+    "static/media/gmail.png": "/my-portfolio/static/media/gmail.179f5091db9214637046.png",
+    "static/media/creative-web-mall.png": "/my-portfolio/static/media/creative-web-mall.a181d5d7f9fe0d48b3cf.png",
+    "static/media/pac.png": "/my-portfolio/static/media/pac.00fbf28da047aecc0a4e.png",
+    "static/media/react_calculator.png": "/my-portfolio/static/media/react_calculator.0f4de50e0bdcfe7e9dad.png",
+    "static/media/TextUtils.png": "/my-portfolio/static/media/TextUtils.91aefeb1735eaea61953.png",
+    "static/media/whatsapp.png": "/my-portfolio/static/media/whatsapp.c794934c6526549113d6.png",
+    "static/media/ems.png": "/my-portfolio/static/media/ems.f12bae0a706ba637ed78.png",
+    "static/media/heroImage.jpg": "/my-portfolio/static/media/heroImage.fbc4ff8019d3121decbc.jpg",
+    "static/media/insta.png": "/my-portfolio/static/media/insta.0a4bb3b3930b8b16aed0.png",
+    "static/media/youtube.png": "/my-portfolio/static/media/youtube.e6663cc234b367d0cc61.png",
+    "static/media/phone.png": "/my-portfolio/static/media/phone.47c95f21fe4ddd943b37.png",
+    "static/media/facebook.png": "/my-portfolio/static/media/facebook.3b3b15693aa96217a99b.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.d578d114.css.map": "/my-portfolio/static/css/main.d578d114.css.map",
+    "main.9f305a8a.js.map": "/my-portfolio/static/js/main.9f305a8a.js.map",
+    "453.ad7768ec.chunk.js.map": "/my-portfolio/static/js/453.ad7768ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d578d114.css",
+    "static/js/main.9f305a8a.js"
+  ]
+}
