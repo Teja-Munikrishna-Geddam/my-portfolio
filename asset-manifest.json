@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.d578d114.css",
-    "main.js": "/my-portfolio/static/js/main.9f305a8a.js",
+    "main.js": "/my-portfolio/static/js/main.48b1739f.js",
     "static/js/453.ad7768ec.chunk.js": "/my-portfolio/static/js/453.ad7768ec.chunk.js",
     "static/media/gmail.png": "/my-portfolio/static/media/gmail.179f5091db9214637046.png",
     "static/media/creative-web-mall.png": "/my-portfolio/static/media/creative-web-mall.a181d5d7f9fe0d48b3cf.png",
@@ -12,16 +12,17 @@
     "static/media/ems.png": "/my-portfolio/static/media/ems.f12bae0a706ba637ed78.png",
     "static/media/heroImage.jpg": "/my-portfolio/static/media/heroImage.fbc4ff8019d3121decbc.jpg",
     "static/media/insta.png": "/my-portfolio/static/media/insta.0a4bb3b3930b8b16aed0.png",
+    "static/media/ChattingApp2.png": "/my-portfolio/static/media/ChattingApp2.42cd47f1980f8b4dd85c.png",
     "static/media/youtube.png": "/my-portfolio/static/media/youtube.e6663cc234b367d0cc61.png",
     "static/media/phone.png": "/my-portfolio/static/media/phone.47c95f21fe4ddd943b37.png",
     "static/media/facebook.png": "/my-portfolio/static/media/facebook.3b3b15693aa96217a99b.png",
     "index.html": "/my-portfolio/index.html",
     "main.d578d114.css.map": "/my-portfolio/static/css/main.d578d114.css.map",
-    "main.9f305a8a.js.map": "/my-portfolio/static/js/main.9f305a8a.js.map",
+    "main.48b1739f.js.map": "/my-portfolio/static/js/main.48b1739f.js.map",
     "453.ad7768ec.chunk.js.map": "/my-portfolio/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d578d114.css",
-    "static/js/main.9f305a8a.js"
+    "static/js/main.48b1739f.js"
   ]
 }
