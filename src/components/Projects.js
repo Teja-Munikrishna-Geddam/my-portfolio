@@ -4,11 +4,20 @@ import calculator from '../img/react_calculator.png';
 import ems from "../img/ems.png";
 import cwm from "../img/creative-web-mall.png";
 import pac from "../img/pac.png";
+import ChatApp from "../img/ChattingApp2.png";
+
 
 function Projects() {
   return (
     <div>
       <section className='Project-Div' id='Projects'>
+        
+        <div className='Project-Card'>
+          <img className='Project-Img' src={ChatApp} alt=''></img>
+          <h1 className='Project-Title'>Chatting Webapp</h1>
+          <p className='Project-Description'>We used ExpressJs,NodeJS,JavaScript to build this app. </p>
+          <a href='https://my-chat-app-avvf.onrender.com/' className="project-link" target='_Blank' rel="noopener noreferrer" >Open Project</a>
+        </div>
         <div className='Project-Card'>
           <img className='Project-Img' src={textUtils} alt='Text Utils'></img>
           <h1 className='Project-Title'>Text Utils App</h1>
